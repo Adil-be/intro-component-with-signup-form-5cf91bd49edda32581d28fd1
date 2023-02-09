@@ -1,0 +1,59 @@
+@import "normalize.css";
+@import "base.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* ************
+    GLOBAL STYLE
+    ************* */
+
+:root {
+  /* Primary */
+
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+
+  /* Accent */
+
+  --Blue: hsl(248, 32%, 49%);
+
+  /* Neutral */
+
+  --DarkBlue: hsl(249, 10%, 26%);
+  --GrayishBlue: hsl(246, 25%, 77%);
+
+  /* Body Copy */
+
+  --Fontsize: 16px;
+
+  /* Font */
+
+  --fontfamily: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url(../images/bg-intro-desktop.png),
+    linear-gradient(hsl(0, 100%, 74%), hsl(0, 100%, 74%));
+}
+
+/* ************
+    GLOBAL CLASS
+    ************* */
+.container {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ************
+    HEADER
+    ************* */
